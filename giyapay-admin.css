@@ -1,0 +1,73 @@
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+}
+
+#giyapay-settings-title {}
+
+.giyapay-settings-section{
+    width: 50%;
+    margin-bottom: 15px;
+    align-self: flex-start;
+}
+
+.giyapay-settings-section > .giyapay-settings-section-title {
+    background-color: #3e3e3e;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.giyapay-settings-section > .giyapay-settings-section-content {
+    border: #3e3e3e;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+
+.giyapay-settings-field {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.giyapay-settings-field:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.giyapay-settings-field > .giyapay-settings-field-label {
+    width: 110px;
+    padding-top: 5px;
+}
+
+.giyapay-settings-field > .giyapay-settings-field-label > label,
+.giyapay-settings-field > .giyapay-settings-field-radio-label {
+    font-weight: bold;
+}
+
+.giyapay-settings-field > .giyapay-long-field {
+    width: 80%;
+}
+
+.giyapay-settings-field > .giyapay-field-help-text {
+    padding-left: 110px;
+    padding-top: 2px;
+}
+
+.giyapay-break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.giyapay-settings-field > .giyapay-settings-field-radio-label {
+    padding-right: 15px;
+}
+
+.giyapay-settings-field.giyapay-settings-field-radio > .giyapay-radio-item {
+    padding-left: 10px;
+}
